@@ -10,6 +10,7 @@ color: AppColors.whiteText
 
   );
 static const  satoshi17Regular=TextStyle(
+  decoration: TextDecoration.none,
 fontFamily: 'Satoshi Regular',
 fontSize: 17,
 fontWeight: FontWeight.w100,
@@ -26,5 +27,12 @@ fontFamily: 'Satoshi',
 fontSize: 22,
 fontWeight: FontWeight.bold,
 color: AppColors.white
+  );
+static const  satoshi26Bold=TextStyle(
+  decoration:TextDecoration.none,
+fontFamily: 'Satoshi',
+fontSize: 26,
+fontWeight: FontWeight.bold,
+color: AppColors.whiteText
   );
 }

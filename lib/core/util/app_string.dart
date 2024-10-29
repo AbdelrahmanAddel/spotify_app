@@ -5,5 +5,8 @@ class AppString {
   chooseMode ='Choose mode',
   darkMode='Dark mode',
   lightMode='Light mode',
+  spotifyIs='Spotify is a proprietary Swedish audio streaming and media services provider ',
+  register='Register',
+  signin ='Sign in',
   continuee='Continue';
 }

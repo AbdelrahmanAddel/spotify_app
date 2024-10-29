@@ -9,6 +9,7 @@ static const whiteText=Color(0xffDADADA);
 static const backgoundWhite=Color(0xffF2F2F2);
 static const grey=Color(0xff797979);
 static const darkBackground = Color(0xff0D0C0C);
+static const brown = Color(0xff1C1C1C);
 
 
 
