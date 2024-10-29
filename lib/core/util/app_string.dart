@@ -7,6 +7,11 @@ class AppString {
   lightMode='Light mode',
   spotifyIs='Spotify is a proprietary Swedish audio streaming and media services provider ',
   register='Register',
-  signin ='Sign in',
+  signin ='Sign In',
+  ifAny ='If you need any support',
+  clickHere =' Click Here',
+  recoveyPassword ='Recovery password',
+  enterUserNameOR ='enter username or email',
+  password ='Password',
   continuee='Continue';
 }

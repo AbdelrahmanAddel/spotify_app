@@ -7,4 +7,7 @@ class Navigation {
  static void pushAndReplacement({required BuildContext context ,required Widget screen}){
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (builder)=>screen));
   }
+ static void pop({required BuildContext context}){
+  Navigator.pop(context);
+  }
 }

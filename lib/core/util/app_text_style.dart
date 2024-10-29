@@ -22,6 +22,12 @@ fontSize: 17,
 fontWeight: FontWeight.bold,
 color: AppColors.whiteText
   );
+static const  satoshi12=TextStyle(
+  decoration: TextDecoration.none,
+fontFamily: 'Satoshi Regular',
+fontSize: 12,
+color: AppColors.whiteText
+  );
 static const  satoshi22Bold=TextStyle(
 fontFamily: 'Satoshi',
 fontSize: 22,
@@ -34,5 +40,19 @@ fontFamily: 'Satoshi',
 fontSize: 26,
 fontWeight: FontWeight.bold,
 color: AppColors.whiteText
+  );
+static const  satoshi30Bold=TextStyle(
+  decoration:TextDecoration.none,
+fontFamily: 'Satoshi',
+fontSize: 30,
+fontWeight: FontWeight.bold,
+color: AppColors.backgoundWhite
+  );
+static const  satoshi16Bold=TextStyle(
+  decoration:TextDecoration.none,
+fontFamily: 'Satoshi ',
+fontSize: 16,
+fontWeight: FontWeight.bold,
+color: AppColors.textFormFieldColor
   );
 }
