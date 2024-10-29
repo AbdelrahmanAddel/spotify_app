@@ -10,6 +10,18 @@ class Assets {
   /// assest/images/backgroundImage2x.png
   static const String assetsImagesBackgroundImage2x = "assest/images/backgroundImage2x.png";
 
+  /// Assets for assetsImagesBilleEil
+  /// assest/images/billeEil.png
+  static const String assetsImagesBilleEil = "assest/images/billeEil.png";
+
+  /// Assets for assetsImagesBillieEli2x
+  /// assest/images/billieEli2x.png
+  static const String assetsImagesBillieEli2x = "assest/images/billieEli2x.png";
+
+  /// Assets for assetsImagesBottomRIghtUnion
+  /// assest/images/bottomRIghtUnion.svg
+  static const String assetsImagesBottomRIghtUnion = "assest/images/bottomRIghtUnion.svg";
+
   /// Assets for assetsImagesChooseThemeImage
   /// assest/images/chooseThemeImage.png
   static const String assetsImagesChooseThemeImage = "assest/images/chooseThemeImage.png";
@@ -37,5 +49,9 @@ class Assets {
   /// Assets for assetsImagesSpotifylogo
   /// assest/images/spotifylogo.png
   static const String assetsImagesSpotifylogo = "assest/images/spotifylogo.png";
+
+  /// Assets for assetsImagesTopRightUnion
+  /// assest/images/topRightUnion.svg
+  static const String assetsImagesTopRightUnion = "assest/images/topRightUnion.svg";
 }
 

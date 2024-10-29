@@ -16,15 +16,7 @@ class ChooseThemeView extends StatelessWidget {
         ThemeViewLogo(),
         ThemeBackgroundImage(),
         ThemeBackgrounfContent()
-
       ],
     );
   }
 }
-
-
-
-
-
-
-
