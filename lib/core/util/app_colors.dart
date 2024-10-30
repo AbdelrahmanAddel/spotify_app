@@ -14,6 +14,7 @@ static const darkBackground = Color(0xff0D0C0C);
 static const brown = Color(0xff1C1C1C);
 static const textFormFieldColor = Color(0xffA7A7A7);
 static const visibilityColor = Color(0xff5B5B5B);
+static const blue = Color(0xff288CE9);
 
 
 

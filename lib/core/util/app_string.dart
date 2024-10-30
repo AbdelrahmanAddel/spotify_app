@@ -12,6 +12,12 @@ class AppString {
   clickHere =' Click Here',
   recoveyPassword ='Recovery password',
   enterUserNameOR ='enter username or email',
-  password ='Password',
+  notAMember ='Not A Member ? ',
+  password ='Password ',
+  registerNow ='Register Now',
+  enterName ='Enter email',
+  fullName ='Full Name',
+  dontHaveAccount ='Do you have an account? ',
+
   continuee='Continue';
 }

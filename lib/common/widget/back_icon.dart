@@ -5,13 +5,15 @@ import 'package:spotify_app/core/util/assets.dart';
 
 class BackIcon extends StatelessWidget {
   const BackIcon({
-    super.key,
+    super.key, this.top, this.left,
   });
+  final double? top;
+  final double?left;
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-     padding: const EdgeInsets.only(top:36.0, left: 16),
+     padding:  EdgeInsets.only(top: top?? 30.0, left: left ??16),
      child:GestureDetector(
       onTap: (){
         Navigation.pop(context: context);

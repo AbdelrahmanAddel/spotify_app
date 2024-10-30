@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:spotify_app/presentation/auth/view/choose_auth_view.dart';
-import 'package:spotify_app/presentation/auth/view/sign_in_view.dart';
+import 'package:spotify_app/presentation/auth/view/widget/view/sign_in_view.dart';
+import 'package:spotify_app/presentation/auth/view/widget/view/sign_up_view.dart';
 import 'package:spotify_app/presentation/choose_theme/cubit/theme_cubit.dart';
 import 'package:spotify_app/theme/app_theme.dart';
 

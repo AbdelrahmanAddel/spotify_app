@@ -17,12 +17,12 @@ class CustomTextSpan extends StatelessWidget {
       TextSpan(
         children: [
           TextSpan(
-            text: firstText,style: AppTextStyle.satoshi12.copyWith(color: firstTextColor),
+            text: firstText,style: AppTextStyle.satoshi12.copyWith(color: firstTextColor,fontWeight: FontWeight.bold),
             recognizer: TapGestureRecognizer()..onTap=firstTextOnTap
             
           ),
           TextSpan(
-            text: secondText,style: AppTextStyle.satoshi12.copyWith(color: secondTextColor),
+            text: secondText,style: AppTextStyle.satoshi12.copyWith(color: secondTextColor,fontWeight: FontWeight.bold),
             recognizer: TapGestureRecognizer()..onTap=secondTextOntTap
 
             

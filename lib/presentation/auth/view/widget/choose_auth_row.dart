@@ -3,8 +3,8 @@ import 'package:spotify_app/common/navigation.dart';
 import 'package:spotify_app/core/util/app_colors.dart';
 import 'package:spotify_app/core/util/app_string.dart';
 
-import 'package:spotify_app/presentation/auth/view/sign_in_view.dart';
-import 'package:spotify_app/presentation/auth/view/sign_up_view.dart';
+import 'package:spotify_app/presentation/auth/view/widget/view/sign_in_view.dart';
+import 'package:spotify_app/presentation/auth/view/widget/view/sign_up_view.dart';
 import 'package:spotify_app/presentation/intro/view/widget/custom_matrial_buttom.dart';
 
 class ChooseAuthRow extends StatelessWidget {
