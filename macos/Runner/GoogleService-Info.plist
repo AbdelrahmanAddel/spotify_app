@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCUdvR0xPBJlc5Ho5JwH_4v-CPxhJKy9h0</string>
+	<string>AIzaSyD2XJwMbn_e0piMDmKMYJ40JgCXvMmCAVk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>775063220344</string>
+	<string>708526037343</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.example.spotifyApp</string>
 	<key>PROJECT_ID</key>
-	<string>spotify-610df</string>
+	<string>for-test-df01c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>spotify-610df.firebasestorage.app</string>
+	<string>for-test-df01c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:775063220344:ios:6abfbe8c3db2509150bd8d</string>
+	<string>1:708526037343:ios:8cfbc39bc0fc7a4b08beea</string>
 </dict>
 </plist>

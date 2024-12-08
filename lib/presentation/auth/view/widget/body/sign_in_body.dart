@@ -3,16 +3,15 @@ import 'package:spotify_app/common/navigation.dart';
 import 'package:spotify_app/common/widget/text_span.dart';
 import 'package:spotify_app/core/data/model/auth/authentication_model.dart';
 import 'package:spotify_app/core/domain/usescase/auth/sign_in.dart';
-import 'package:spotify_app/core/domain/usescase/auth/sign_up.dart';
 import 'package:spotify_app/core/service_locator.dart';
 import 'package:spotify_app/core/util/app_colors.dart';
 import 'package:spotify_app/core/util/app_string.dart';
 import 'package:spotify_app/core/util/app_text_style.dart';
-import 'package:spotify_app/presentation/auth/view/widget/view/sign_in_view.dart';
 import 'package:spotify_app/presentation/auth/view/widget/view/sign_up_view.dart';
 import 'package:spotify_app/presentation/auth/view/widget/custom_widgets/custom_divider.dart';
 import 'package:spotify_app/presentation/auth/view/widget/custom_widgets/custom_text_form_filed.dart';
 import 'package:spotify_app/presentation/auth/view/widget/custom_widgets/google_apple_auth.dart';
+import 'package:spotify_app/presentation/home/view/home_view.dart';
 import 'package:spotify_app/presentation/intro/view/widget/custom_matrial_buttom.dart';
 
 class SignInBody extends StatelessWidget {
@@ -65,16 +64,14 @@ final passwordController=TextEditingController();
                         (error)=>
                           ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(error.toString())))
                         ,
-                       (success)=>
-                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(success.toString())))
-
+                       (success){
+                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(success.toString())));
+                          Navigation.pushAndReplacement(context: context, screen: HomeView());
+                       }
 
                        ) ;
                   }
-                  
-                
-
-                },
+                  },
               ),
               const SizedBox(height: 35),
               const CustomDivider(dividerText: '  Or  '),

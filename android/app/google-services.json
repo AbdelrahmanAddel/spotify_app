@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "775063220344",
-    "project_id": "spotify-610df",
-    "storage_bucket": "spotify-610df.firebasestorage.app"
+    "project_number": "708526037343",
+    "project_id": "for-test-df01c",
+    "storage_bucket": "for-test-df01c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:775063220344:android:86bd5eb9bcd57b3650bd8d",
+        "mobilesdk_app_id": "1:708526037343:android:be3c3d93652bd2a508beea",
         "android_client_info": {
           "package_name": "com.example.spotify_app"
         }
@@ -15,7 +15,64 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAwaVFO9_AglPRywKqks3ZZhUrhnoQJbyg"
+          "current_key": "AIzaSyDG7MErQoKfpubNtdgk-HGrVshuoGHoL5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708526037343:android:a26ae38820283c3408beea",
+        "android_client_info": {
+          "package_name": "com.example.for_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG7MErQoKfpubNtdgk-HGrVshuoGHoL5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708526037343:android:8ff1156b47a9705308beea",
+        "android_client_info": {
+          "package_name": "com.example.oop_revision"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG7MErQoKfpubNtdgk-HGrVshuoGHoL5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708526037343:android:928e51110bc3053808beea",
+        "android_client_info": {
+          "package_name": "com.example.test_work"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG7MErQoKfpubNtdgk-HGrVshuoGHoL5A"
         }
       ],
       "services": {

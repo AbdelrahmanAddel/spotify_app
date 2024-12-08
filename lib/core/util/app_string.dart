@@ -2,6 +2,12 @@ class AppString {
   static const enjoy='Enjoy listening to music',
   lorem='Lorem ipsum dolor sit amet,\n consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.',
   getStart='Get started',
+  songs='songs',
+  nowPlaying='Now Playinh',
+  duration='artist',
+  playList='Playlist',
+  seeMote='See Mote',
+  releaseDate='release date',
   chooseMode ='Choose mode',
   darkMode='Dark mode',
   lightMode='Light mode',
@@ -18,6 +24,34 @@ class AppString {
   enterName ='Enter email',
   fullName ='Full Name',
   dontHaveAccount ='Do you have an account? ',
+  newAlbum ='New album ',
+  happierThan ='Happier Than\nEver ',
+  billieEl ='Billie Eilish ',
+  news ='News',
+  video ='Video',
+  artists ='Artists',
+  podcast ='Podcast',
+
+  
+
 
   continuee='Continue';
+}
+class FireBaseString{
+static String fullName='Full Name',
+email='Email',
+artist='artist'
+,duration='duration',
+releaseDate='release date',
+title='title',
+baseUrl='https://firebasestorage.googleapis.com/v0/b/for-test-df01c.appspot.com/o/covers%2F',
+altMeadio='alt=media&',
+token='token=',
+jpg='.jpg?',
+apiKey='07a617b7-9e5f-4382-9170-52ee6e80bafb'
+;
+
+
+
+
 }

@@ -18,7 +18,7 @@ class SignUpView extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 33.0),
         child: ListView(
           children: [
-            const RegisterViewAppBar(),
+            Center(child: const RegisterViewAppBar()),
             const Center(
               child: Padding(
                 padding: EdgeInsets.only(top: 40.0, bottom: 15),

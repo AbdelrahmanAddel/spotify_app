@@ -1,6 +1,8 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dartz/dartz.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:spotify_app/core/data/model/auth/authentication_model.dart';
+import 'package:spotify_app/core/data/model/firebase/firebase_model.dart';
 
 abstract class FireBaseAuth{
   Future<Either>signIn(AuthenticationModel authenticationModel);
@@ -8,9 +10,11 @@ abstract class FireBaseAuth{
 
 }
 class FireBaseAuthImplemnt extends FireBaseAuth {
+
   @override
   Future<Either> signIn(AuthenticationModel authenticationModel) async{
 try {
+  
  await FirebaseAuth.instance.signInWithEmailAndPassword(
     email: authenticationModel.email,
     password: authenticationModel.password
@@ -32,11 +36,14 @@ try {
 
   @override
   Future<Either> signUp(AuthenticationModel authenticationModel) async{
+      FirebaseModel firebaseModel =FirebaseModel(email: authenticationModel.email ,fullName: authenticationModel.fullName);
+
 try {
 await FirebaseAuth.instance.createUserWithEmailAndPassword(
     email: authenticationModel.email,
     password: authenticationModel.password ,
   );
+ await FirebaseFirestore.instance.collection('Users').add(firebaseModel.toJson());
   return const Right('Sign Up Successfuly !');
 
 } on FirebaseAuthException catch (e) {

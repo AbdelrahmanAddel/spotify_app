@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_single_quotes
 class Assets {
   Assets._();
-  
+
   /// Assets for assetsImagesApplevector
   /// assest/images/applevector.svg
   static const String assetsImagesApplevector = "assest/images/applevector.svg";
@@ -12,7 +12,13 @@ class Assets {
 
   /// Assets for assetsImagesBackgroundImage2x
   /// assest/images/backgroundImage2x.png
-  static const String assetsImagesBackgroundImage2x = "assest/images/backgroundImage2x.png";
+  static const String assetsImagesBackgroundImage2x =
+      "assest/images/backgroundImage2x.png";
+
+  /// Assets for assetsImagesBilleContainerImage
+  /// assest/images/billeContainerImage.png
+  static const String assetsImagesBilleContainerImage =
+      "assest/images/billeContainerImage.png";
 
   /// Assets for assetsImagesBilleEil
   /// assest/images/billeEil.png
@@ -24,11 +30,13 @@ class Assets {
 
   /// Assets for assetsImagesBottomRIghtUnion
   /// assest/images/bottomRIghtUnion.svg
-  static const String assetsImagesBottomRIghtUnion = "assest/images/bottomRIghtUnion.svg";
+  static const String assetsImagesBottomRIghtUnion =
+      "assest/images/bottomRIghtUnion.svg";
 
   /// Assets for assetsImagesChooseThemeImage
   /// assest/images/chooseThemeImage.png
-  static const String assetsImagesChooseThemeImage = "assest/images/chooseThemeImage.png";
+  static const String assetsImagesChooseThemeImage =
+      "assest/images/chooseThemeImage.png";
 
   /// Assets for assetsImagesDarkMode
   /// assest/images/darkMode.svg
@@ -36,11 +44,13 @@ class Assets {
 
   /// Assets for assetsImagesGetStartViewImage
   /// assest/images/getStartViewImage.png
-  static const String assetsImagesGetStartViewImage = "assest/images/getStartViewImage.png";
+  static const String assetsImagesGetStartViewImage =
+      "assest/images/getStartViewImage.png";
 
   /// Assets for assetsImagesGooglevector
   /// assest/images/googlevector.svg
-  static const String assetsImagesGooglevector = "assest/images/googlevector.svg";
+  static const String assetsImagesGooglevector =
+      "assest/images/googlevector.svg";
 
   /// Assets for assetsImagesLightMode
   /// assest/images/lightMode.svg
@@ -56,6 +66,9 @@ class Assets {
 
   /// Assets for assetsImagesTopRightUnion
   /// assest/images/topRightUnion.svg
-  static const String assetsImagesTopRightUnion = "assest/images/topRightUnion.svg";
-}
+  static const String assetsImagesTopRightUnion =
+      "assest/images/topRightUnion.svg";
+  static const String playIcon = 'spotify_app/assest/images/playIcon.svg';
 
+  static const String backIcon = 'spotify_app/assest/images/Previous.svg';
+}
