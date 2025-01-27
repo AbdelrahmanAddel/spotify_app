@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants/app_text_style.dart';
+import '../../../core/constants/app_text_style.dart';
 
 Widget customTextFormField({
   TextEditingController? controller,

@@ -1,8 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:for_test/constants/app_text_style.dart';
-import 'package:for_test/constants/assets.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
+import 'package:for_test/core/constants/assets.dart';
 
 import '../../../home/presentation/cubit/get_songs_cubit.dart';
 

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:for_test/constants/app_strings.dart';
-import 'package:for_test/constants/app_text_style.dart';
+import 'package:for_test/core/constants/app_strings.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
 
 import 'package:for_test/feature/profle/presentation/cubit/get_profile_cubit.dart';
 
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/colors.dart';
 import '../widget/profile_container.dart';
 import 'profile_favourite_list.dart';
 

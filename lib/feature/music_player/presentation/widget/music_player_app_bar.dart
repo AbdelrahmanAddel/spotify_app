@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:for_test/fuctions/navigation.dart';
 
-import '../../../../common/widget/back_icon_widget.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../constants/app_text_style.dart';
-import '../../../../constants/colors.dart';
+import '../../../../core/common/widget/back_icon_widget.dart';
+import '../../../../core/constants/app_strings.dart';
+import '../../../../core/constants/app_text_style.dart';
+import '../../../../core/constants/colors.dart';
 import '../../cubit/music_player_cubit.dart';
 
 Widget musicPlayerAppBar(

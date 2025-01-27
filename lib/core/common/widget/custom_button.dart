@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/constants/colors.dart';
 
 Widget customButton(
     {required double width,

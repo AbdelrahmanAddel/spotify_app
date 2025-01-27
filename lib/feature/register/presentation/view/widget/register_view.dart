@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/constants/colors.dart';
 
-import '../../../../../common/widget/custom_or_line.dart';
-import '../../../../../common/widget/custom_other_authentication.dart';
+import '../../../../../core/common/widget/custom_or_line.dart';
+import '../../../../../core/common/widget/custom_other_authentication.dart';
 import '../../../../sign_in/presentation/sections/app_bar_section.dart';
 import '../../sections/register_body_section.dart';
 import '../../sections/register_text_sections.dart';

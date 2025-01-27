@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/constants/app_text_style.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
 import 'package:for_test/feature/home/presentation/cubit/get_songs_cubit.dart';
 
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/colors.dart';
 
 Widget profileContainerContent(
     {required GetSongsCubit songCubit,

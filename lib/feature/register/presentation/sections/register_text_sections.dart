@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../../common/widget/custom_text_span.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../constants/app_text_style.dart';
-import '../../../../constants/colors.dart';
+import '../../../../core/common/widget/custom_text_span.dart';
+import '../../../../core/constants/app_strings.dart';
+import '../../../../core/constants/app_text_style.dart';
+import '../../../../core/constants/colors.dart';
 
 Widget registerViewSection() {
   return Column(

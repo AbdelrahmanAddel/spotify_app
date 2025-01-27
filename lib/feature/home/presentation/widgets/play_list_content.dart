@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:for_test/constants/app_text_style.dart';
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
+import 'package:for_test/core/constants/colors.dart';
 
-import '../../../../constants/assets.dart';
+import '../../../../core/constants/assets.dart';
 import '../cubit/get_songs_cubit.dart';
 
 Widget playListContent(

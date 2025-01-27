@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/constants/assets.dart';
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/constants/assets.dart';
+import 'package:for_test/core/constants/colors.dart';
 
 class BackIcon extends StatelessWidget {
   const BackIcon({

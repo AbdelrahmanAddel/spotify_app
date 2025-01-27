@@ -1,5 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:for_test/constants/firebase_strings.dart';
+import 'package:for_test/core/constants/firebase_strings.dart';
 
 class ProfileModel {
   String fullName;

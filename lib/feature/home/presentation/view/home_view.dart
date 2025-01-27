@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/constants/colors.dart';
 
 import '../sections/album_container_section.dart';
 import '../sections/home_app_bar_section.dart';

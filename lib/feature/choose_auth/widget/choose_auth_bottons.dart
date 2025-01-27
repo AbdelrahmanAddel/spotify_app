@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/common/widget/custom_button.dart';
-import 'package:for_test/constants/app_strings.dart';
-import 'package:for_test/constants/app_text_style.dart';
+import 'package:for_test/core/common/widget/custom_button.dart';
+import 'package:for_test/core/constants/app_strings.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
 import 'package:for_test/feature/register/presentation/view/register_view.dart';
 import 'package:for_test/feature/sign_in/presentation/view/sign_in_view.dart';
 import 'package:for_test/fuctions/navigation.dart';

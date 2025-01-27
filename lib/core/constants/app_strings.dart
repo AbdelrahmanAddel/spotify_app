@@ -24,6 +24,7 @@ class AppStrings {
       recoveryPassword = '  Recovery password',
       register = 'Register',
       signIn = 'Sign In',
+      isVisited = 'isVisited',
       password = 'Password',
       enterUserName = 'Enter Username Or Email',
       spotifyIs =

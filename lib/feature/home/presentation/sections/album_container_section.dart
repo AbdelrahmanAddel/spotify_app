@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../constants/assets.dart';
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/assets.dart';
+import '../../../../core/constants/colors.dart';
 import '../widgets/album_conatiner_section_content.dart';
 
 Widget albumContainerSection() {

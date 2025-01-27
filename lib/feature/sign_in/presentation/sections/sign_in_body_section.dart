@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/common/widget/custom_button.dart';
+import 'package:for_test/core/common/widget/custom_button.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:for_test/common/widget/custom_circle_progress_indicator.dart';
-import 'package:for_test/common/widget/custom_toast.dart';
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/common/widget/custom_circle_progress_indicator.dart';
+import 'package:for_test/core/common/widget/custom_toast.dart';
+import 'package:for_test/core/constants/colors.dart';
 import 'package:for_test/feature/home/presentation/view/home_view.dart';
 import 'package:for_test/fuctions/navigation.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../constants/app_text_style.dart';
+import '../../../../core/constants/app_strings.dart';
+import '../../../../core/constants/app_text_style.dart';
 import '../../../get_start/widget/custom_text_form_field.dart';
 import '../../../sign_in/presentation/cubit/signin_cubit.dart';
 

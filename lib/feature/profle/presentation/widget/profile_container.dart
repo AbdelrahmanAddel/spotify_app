@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/colors.dart';
 import '../cubit/get_profile_cubit.dart';
 import '../view/profile_container_content.dart';
 

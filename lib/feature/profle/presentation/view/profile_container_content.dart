@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/common/widget/custom_circle_progress_indicator.dart';
-import 'package:for_test/constants/app_text_style.dart';
+import 'package:for_test/core/common/widget/custom_circle_progress_indicator.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
 import 'package:for_test/feature/profle/presentation/cubit/get_profile_cubit.dart';
 
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/colors.dart';
 import '../widget/profile_container_appbar.dart';
 
 class ProfileContainerContent extends StatelessWidget {

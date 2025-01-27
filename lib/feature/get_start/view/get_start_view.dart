@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/constants/assets.dart';
+import 'package:for_test/core/constants/assets.dart';
 import '../widget/get_start_background.dart';
 import '../widget/get_start_body.dart';
 

@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:for_test/common/widget/custom_button.dart';
-import 'package:for_test/constants/app_strings.dart';
-import 'package:for_test/constants/app_text_style.dart';
-import 'package:for_test/constants/assets.dart';
+import 'package:for_test/core/common/widget/custom_button.dart';
+import 'package:for_test/core/constants/app_strings.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
+import 'package:for_test/core/constants/assets.dart';
 import 'package:for_test/fuctions/navigation.dart';
+import 'package:for_test/service/service_locator.dart';
 
+import '../../../core/database/cache_helper.dart';
 import '../../choose_theme/view/choose_theme_view.dart';
 
 class GetStartBody extends StatelessWidget {
@@ -37,7 +39,7 @@ class GetStartBody extends StatelessWidget {
             ),
             const Spacer(),
             customButton(
-                onTap: () {
+                onTap: ()async {
                   Navigation.pushReplaceme(
                       context: context, navScreen: const ChooseThemeView());
                 },

@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:for_test/feature/register/presentation/view/register_view.dart';
 import 'package:for_test/fuctions/navigation.dart';
 
-import '../../../../common/widget/custom_text_span.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../constants/app_text_style.dart';
-import '../../../../constants/colors.dart';
+import '../../../../core/common/widget/custom_text_span.dart';
+import '../../../../core/constants/app_strings.dart';
+import '../../../../core/constants/app_text_style.dart';
+import '../../../../core/constants/colors.dart';
 
 Widget notAMemberSection({required BuildContext context}) {
   return Row(

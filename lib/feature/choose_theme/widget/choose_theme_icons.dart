@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/constants/app_strings.dart';
-import 'package:for_test/constants/app_text_style.dart';
-import 'package:for_test/constants/assets.dart';
+import 'package:for_test/core/constants/app_strings.dart';
+import 'package:for_test/core/constants/app_text_style.dart';
+import 'package:for_test/core/constants/assets.dart';
 
 import '../widget/theme_icon.dart';
 

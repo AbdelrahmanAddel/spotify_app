@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/constants/colors.dart';
 import 'package:for_test/feature/music_player/cubit/music_player_cubit.dart';
 
 import '../../../home/presentation/cubit/get_songs_cubit.dart';

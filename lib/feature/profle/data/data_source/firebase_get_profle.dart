@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dartz/dartz.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:for_test/constants/firebase_strings.dart';
+import 'package:for_test/core/constants/firebase_strings.dart';
 
 import '../model/profile_model.dart';
 

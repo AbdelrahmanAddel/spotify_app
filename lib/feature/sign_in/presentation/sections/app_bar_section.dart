@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:for_test/common/widget/back_icon_widget.dart';
+import 'package:for_test/core/common/widget/back_icon_widget.dart';
 
-import '../../../../constants/assets.dart';
+import '../../../../core/constants/assets.dart';
 
 Widget appBarSection() {
   return Row(

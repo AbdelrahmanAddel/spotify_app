@@ -1,3 +1,4 @@
+import 'package:for_test/core/database/cache_helper.dart';
 import 'package:for_test/feature/home/data/data_source/firebase_song_details.dart';
 import 'package:for_test/feature/home/data/reposity/get_song_details_implementation.dart';
 import 'package:for_test/feature/home/domain/repositry/get_song_details.dart';
@@ -40,4 +41,6 @@ Future<void> slInit() async {
   sl.registerSingleton<ProfileReposity>(ProfileRepoImplementation());
   sl.registerSingleton<FirebaseGetProfle>(FirebaseGetProfleImple());
   sl.registerSingleton(ProfileUsecase());
+  //! Cache Helper
+  sl.registerSingleton(CacheHelper());
 }

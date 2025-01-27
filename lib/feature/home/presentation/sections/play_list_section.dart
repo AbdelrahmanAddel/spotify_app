@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../constants/app_strings.dart';
-import '../../../../constants/app_text_style.dart';
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/app_strings.dart';
+import '../../../../core/constants/app_text_style.dart';
+import '../../../../core/constants/colors.dart';
 import '../cubit/get_songs_cubit.dart';
 import '../widgets/play_list_content.dart';
 

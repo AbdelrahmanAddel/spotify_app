@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:for_test/common/widget/custom_circle_progress_indicator.dart';
-import 'package:for_test/constants/assets.dart';
+import 'package:for_test/core/common/widget/custom_circle_progress_indicator.dart';
+import 'package:for_test/core/constants/assets.dart';
 
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/colors.dart';
 import '../../cubit/music_player_cubit.dart';
 
 Widget controlButtomsSection(

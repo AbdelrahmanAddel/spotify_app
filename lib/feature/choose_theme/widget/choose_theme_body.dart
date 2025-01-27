@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:for_test/fuctions/navigation.dart';
 
-import '../../../common/widget/custom_button.dart';
-import '../../../constants/app_strings.dart';
-import '../../../constants/app_text_style.dart';
-import '../../../constants/assets.dart';
+import '../../../core/common/widget/custom_button.dart';
+import '../../../core/constants/app_strings.dart';
+import '../../../core/constants/app_text_style.dart';
+import '../../../core/constants/assets.dart';
+import '../../../core/database/cache_helper.dart';
+import '../../../service/service_locator.dart';
 import '../../choose_auth/view/choose_auth_view.dart';
 import 'choose_theme_icons.dart';
 
@@ -37,7 +39,10 @@ class ChooseThemeBody extends StatelessWidget {
               AppStrings.continuee,
               style: AppTextStyle.satoshiBold22,
             ),
-            onTap: () {
+            onTap: () async {
+              await sl<CacheHelper>()
+                  .setBool(key: AppStrings.isVisited, value: true);
+
               Navigation.pushReplaceme(
                   context: context, navScreen: const ChooseAuthView());
             },

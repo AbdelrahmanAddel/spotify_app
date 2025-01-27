@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:for_test/common/widget/custom_circle_progress_indicator.dart';
+import 'package:for_test/core/common/widget/custom_circle_progress_indicator.dart';
 import 'package:for_test/feature/home/presentation/cubit/get_songs_cubit.dart';
 
 import '../widget/profile_container_content.dart';

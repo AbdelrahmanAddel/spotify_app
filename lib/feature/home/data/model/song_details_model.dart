@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:for_test/constants/firebase_strings.dart';
+import 'package:for_test/core/constants/firebase_strings.dart';
 
 class SongDetailsModel {
   final String artist;

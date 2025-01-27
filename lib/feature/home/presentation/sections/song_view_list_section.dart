@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../common/widget/custom_circle_progress_indicator.dart';
+import '../../../../core/common/widget/custom_circle_progress_indicator.dart';
 import '../cubit/get_songs_cubit.dart';
 import '../widgets/song_view_list_content.dart';
 

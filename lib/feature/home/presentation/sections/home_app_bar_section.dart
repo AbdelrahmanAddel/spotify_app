@@ -3,8 +3,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:for_test/feature/profle/presentation/view/profile.dart';
 import 'package:for_test/fuctions/navigation.dart';
 
-import '../../../../constants/assets.dart';
-import '../../../../constants/colors.dart';
+import '../../../../core/constants/assets.dart';
+import '../../../../core/constants/colors.dart';
 
 Widget homeAppBarSection({required BuildContext context}) {
   return Row(

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:for_test/common/widget/custom_button.dart';
-import 'package:for_test/common/widget/custom_toast.dart';
-import 'package:for_test/constants/colors.dart';
+import 'package:for_test/core/common/widget/custom_button.dart';
+import 'package:for_test/core/common/widget/custom_toast.dart';
+import 'package:for_test/core/constants/colors.dart';
 import 'package:for_test/feature/register/presentation/cubit/register_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../common/widget/custom_circle_progress_indicator.dart';
-import '../../../../constants/app_strings.dart';
-import '../../../../constants/app_text_style.dart';
+import '../../../../core/common/widget/custom_circle_progress_indicator.dart';
+import '../../../../core/constants/app_strings.dart';
+import '../../../../core/constants/app_text_style.dart';
 import '../../../get_start/widget/custom_text_form_field.dart';
 
 Widget registerBodySection() {
