@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  static const splachScreenColor = Color(0xff0D0C0C),
+      dADADA = Color(0xffDADADA),
+      loremColor = Color(0xff797979),
+      f6F6F6 = Color(0xffF6F6F6),
+      greenButtom = Color(0xff42C83C),
+      dBDBDB = Color(0xffDBDBDB),
+      f2F2F2 = Color(0xffF2F2F2),
+      cFCFCF = Color(0xffCFCFCF),
+      e288CE9 = Color(0xff288CE9),
+      g38B432 = Color(0xff38B432),
+      fBFBFB = Color(0xffFBFBFB),
+      e1E1E1 = Color(0xffE1E1E1),
+      eE4E4E4 = Color(0xffE4E4E4),
+      a68C8C = Color(0xffA68C8C),
+      aEAEAE = Color(0xffAEAEAE),
+      playIconBackGorung = Color(0xff2C2C2C),
+      darkBackGround = Color(0xff1C1B1B),
+      dDD = Color(0xffDDDDDD),
+      e8787 = Color(0xff878787),
+      d8D4D4 = Color(0xffD8D4D4),
+      d6d6 = Color(0xffD6D6D6),
+      e2C2B2B = Color(0xff2C2B2B),
+      bB7B7B7 = Color(0xffB7B7B7),
+      eE3E3E3 = Color(0xffE3E3E3),
+      c6C6C6 = Color(0xffC6C6C6),
+      dCDCDC = Color(0xffDCDCDC);
+}
